@@ -5,21 +5,21 @@
 class Fuse < Formula
   desc "A local firewall for AI agent commands"
   homepage "https://github.com/php-workx/fuse"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/php-workx/fuse/releases/download/v0.1.0/fuse_darwin_amd64.tar.gz"
-      sha256 "b90eb5db97ea9ec5673af2ea4ba8f48f877ee0ad19e89cc731204ea9bca61e36"
+      url "https://github.com/php-workx/fuse/releases/download/v0.1.1/fuse_darwin_amd64.tar.gz"
+      sha256 "eeec0236248b24920a30b988b08fbbdd25f31a254f2ecf340b88008abb2e4363"
 
       define_method(:install) do
         bin.install "fuse"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/php-workx/fuse/releases/download/v0.1.0/fuse_darwin_arm64.tar.gz"
-      sha256 "3994c09cd7f6a75c877a689a835745a3299c845942a14120443c4b2b6229ed87"
+      url "https://github.com/php-workx/fuse/releases/download/v0.1.1/fuse_darwin_arm64.tar.gz"
+      sha256 "c5d3e77e56892ef5f2de2358c79618d9bc84693d35ca52718ef46e602d9f9eee"
 
       define_method(:install) do
         bin.install "fuse"
@@ -29,15 +29,15 @@ class Fuse < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/php-workx/fuse/releases/download/v0.1.0/fuse_linux_amd64.tar.gz"
-      sha256 "8fb7bc20c597bcb395cf459896aa0ccb5d2a819da1e723d7b2ffbbdb70e0e701"
+      url "https://github.com/php-workx/fuse/releases/download/v0.1.1/fuse_linux_amd64.tar.gz"
+      sha256 "32e07844732561a28324b63044cc2566e62865105a2633247c9b8b7d589243da"
       define_method(:install) do
         bin.install "fuse"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/php-workx/fuse/releases/download/v0.1.0/fuse_linux_arm64.tar.gz"
-      sha256 "ef00b8a046ddac6663584b183d45f37e31217853cc3385dd022af5edbe733e66"
+      url "https://github.com/php-workx/fuse/releases/download/v0.1.1/fuse_linux_arm64.tar.gz"
+      sha256 "9b8693838a98b986c768ff495c309930f8c311c5bc46e45ebb961ecf1936a64c"
       define_method(:install) do
         bin.install "fuse"
       end
