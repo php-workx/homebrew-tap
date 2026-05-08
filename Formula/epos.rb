@@ -1,25 +1,25 @@
 class Epos < Formula
   desc "A task and issue tracker for AI agents and their humans"
   homepage "https://github.com/php-workx/epos"
-  version "0.2.4"
+  version "0.2.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/php-workx/epos/releases/download/v0.2.4/epos_0.2.4_darwin_arm64.tar.gz"
-      sha256 "429db708efce5cc123e38aef868c05048bec2299b9eac4f35bd1877525ccd49d"
+      url "https://github.com/php-workx/epos/releases/download/v0.2.5/epos_0.2.5_darwin_arm64.tar.gz"
+      sha256 "858bc3e2de8f5e0586145a5cb542d1a0ef0127614575ae0cd15ee2dccf533109"
     else
-      url "https://github.com/php-workx/epos/releases/download/v0.2.4/epos_0.2.4_darwin_amd64.tar.gz"
-      sha256 "d08a03c645a5ecde61091f3f965acc01cd4134aa28c7486be348fea0e1bc521f"
+      url "https://github.com/php-workx/epos/releases/download/v0.2.5/epos_0.2.5_darwin_amd64.tar.gz"
+      sha256 "10b7b6660ea89e38c6dcce680061088805d55dcae94449bd68c58d3cd6c2ad4d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/php-workx/epos/releases/download/v0.2.4/epos_0.2.4_linux_arm64.tar.gz"
-      sha256 "06106cd85839d279f11b3320381ab2ed9913820b115e5399db81c3d5d52a4cd3"
+      url "https://github.com/php-workx/epos/releases/download/v0.2.5/epos_0.2.5_linux_arm64.tar.gz"
+      sha256 "a1ef24d124fa55776aa73826a1da28ab88e20363e4c72522001ca10abbab33e8"
     else
-      url "https://github.com/php-workx/epos/releases/download/v0.2.4/epos_0.2.4_linux_amd64.tar.gz"
-      sha256 "cb6184a29c31021c1574e2936dac858eb7d46f8912dc61fdb1df250fc6c74a25"
+      url "https://github.com/php-workx/epos/releases/download/v0.2.5/epos_0.2.5_linux_amd64.tar.gz"
+      sha256 "01953be6e095ed45cb02ea941f4343e2d2bf9348af94097b59ba533b079a48f6"
     end
   end
 
