@@ -1,6 +1,6 @@
 cask "ccvv" do
-  version "1.5.0"
-  sha256 "6aae65c77460f215152cc8e7d431c55520fa5bc8936b7003fbc8733ddb94ef32"
+  version "1.5.3"
+  sha256 "d937f31a0c174a0b0ee4280380c681a448ca03f8272e1e3348cdcbc7cd7e25da"
 
   url "https://github.com/php-workx/ccvv/releases/download/v#{version}/ccvv-#{version}.zip"
   name "ccvv"
